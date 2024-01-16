@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d9/SVCE.png'); /* Replace with your image path */
+    background-size:cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to be readable on the background image */
+}
+
+        header {
+            background-color:lightsteelblue;
+            color:black; 
+            padding: 5px;
+            text-align: center;
+            
+            
+        }
+
+        header img {
+            position: absolute;
+            left: 12%; /* Adjust the left position as needed */
+            top: 9%;
+            transform: translateY(-50%);
+            height: 200px;
+            width: 100px; /* Set the height of the image */
+            width: auto; /* Allow the width to adjust proportionally */
+        }
+
+        nav {
+            background-color:whitesmoke;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color:black;
+            text-decoration: none;
+            padding: 10px 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .box {
+            
+                
+            align-items: center;
+            justify-content: center;
+            height: 35%;
+            width: 35%;
+            margin: 0;
+            background-color:lightgrey;
+            border: 1px solid #ccc;
+            color:black;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.736);
+            position: absolute;
+            top: 45%;
+            left: 10%;
+        }
+        
+
+        
+
+        
+     
+       
